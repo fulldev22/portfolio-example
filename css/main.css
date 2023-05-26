@@ -1,0 +1,91 @@
+body {
+  font-family: "Arial Narrow";
+  background-color: rgb(26, 71, 88);
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  border: 2px solid rgb(52, 145, 182);
+  background-color: rgb(52, 145, 182);
+}
+.header__title {
+  margin-left: 50px;
+  font-style: oblique;
+  color: rgb(26, 71, 88);
+}
+.header .nav {
+  float: right;
+  margin-top: -70px;
+  margin-right: 50px;
+}
+.header .nav__navbar {
+  display: flex;
+}
+.header .nav__item {
+  list-style: none;
+}
+.header .nav__link {
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+.header .nav__link:hover {
+  color: rgb(26, 71, 88);
+}
+.header .nav .active {
+  color: rgb(26, 71, 88);
+}
+
+.footer {
+  border: 2px solid rgb(52, 145, 182);
+  background-color: rgb(52, 145, 182);
+  color: rgb(26, 71, 88);
+  padding: 10px;
+}
+.footer__title {
+  margin-left: 20px;
+  font-style: oblique;
+}
+.footer .legal {
+  text-align: center;
+  margin-top: -50px;
+}
+.footer .legal a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer .legal a:hover {
+  color: rgb(26, 71, 88);
+}
+.footer .social {
+  float: right;
+  margin-top: -35px;
+  margin-right: 20px;
+}
+
+.introduce p {
+  text-align: right;
+  margin-right: 20px;
+  font-size: 3.5em;
+  font-style: italic;
+  color: #fff;
+}
+.introduce p span {
+  color: rgb(52, 145, 182);
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.projects .project-title {
+  border: 2px solid rgb(52, 145, 182);
+  background-color: rgb(52, 145, 182);
+  color: #fff;
+  margin-top: -5px;
+  padding: 6px;
+}
+
+/*# sourceMappingURL=main.css.map */

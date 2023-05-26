@@ -1,0 +1,35 @@
+.header{
+    border: 2px solid $color-primary;
+    background-color: $color-primary;
+    &__title{
+        margin-left: 50px;
+        font-style: oblique;
+        color: $color-secondary;
+    }
+
+    .nav{
+        float: right;
+        margin-top: -70px;
+        margin-right: 50px;
+        &__navbar{
+            display: flex;
+        }
+
+        &__item{
+            list-style: none;
+        }
+
+        &__link{
+            padding: 15px 20px;
+            text-decoration: none;
+            color: $color-tertiary;
+            &:hover{
+                color: $color-secondary;
+            }
+        }
+
+        .active{
+            color: $color-secondary;
+        }
+    }
+}

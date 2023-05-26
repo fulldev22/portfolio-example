@@ -1,0 +1,25 @@
+.introduce{
+    p{
+        text-align: right;
+        margin-right: 20px;
+        font-size: 3.5em;
+        font-style: italic;
+        color: $color-tertiary;
+        span{
+            color: $color-primary;
+        }
+    }
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .project-title{
+        border: 2px solid $color-primary;
+        background-color: $color-primary;
+        color: $color-tertiary;
+        margin-top: -5px;
+        padding: 6px;
+    }
+}
