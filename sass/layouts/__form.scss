@@ -1,0 +1,37 @@
+.contact{
+    margin-left: 100px;
+    h1{
+        color: $color-primary;
+        font-style: oblique;
+        font-size: 1.8em;
+    }
+
+    .form{
+        &__label{
+            color: $color-tertiary;
+            font-style: italic;
+        }
+
+        &__input{
+            width: 40%;
+            outline: none;
+            padding: 5px;
+            &:focus{
+                border: 2px solid $color-primary;
+            }
+        }
+
+        &__btn{
+            background-color: $color-primary;
+            border-color: $color-primary;
+            color: $color-tertiary;
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 5px;
+            &:hover{
+                background-color: darken($color-primary, 8);
+                border-color: darken($color-primary, 8);
+            }
+        }
+    }
+}

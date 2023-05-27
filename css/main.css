@@ -64,6 +64,39 @@ body {
   margin-right: 20px;
 }
 
+.contact {
+  margin-left: 100px;
+}
+.contact h1 {
+  color: rgb(52, 145, 182);
+  font-style: oblique;
+  font-size: 1.8em;
+}
+.contact .form__label {
+  color: #fff;
+  font-style: italic;
+}
+.contact .form__input {
+  width: 40%;
+  outline: none;
+  padding: 5px;
+}
+.contact .form__input:focus {
+  border: 2px solid rgb(52, 145, 182);
+}
+.contact .form__btn {
+  background-color: rgb(52, 145, 182);
+  border-color: rgb(52, 145, 182);
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+.contact .form__btn:hover {
+  background-color: #2b7896;
+  border-color: #2b7896;
+}
+
 .introduce p, .introduce .about address, .about .introduce address {
   text-align: right;
   margin-right: 20px;
