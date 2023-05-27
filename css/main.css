@@ -64,14 +64,14 @@ body {
   margin-right: 20px;
 }
 
-.introduce p {
+.introduce p, .introduce .about address, .about .introduce address {
   text-align: right;
   margin-right: 20px;
   font-size: 3.5em;
   font-style: italic;
   color: #fff;
 }
-.introduce p span {
+.introduce p span, .introduce .about address span, .about .introduce address span {
   color: rgb(52, 145, 182);
 }
 
@@ -86,6 +86,17 @@ body {
   color: #fff;
   margin-top: -5px;
   padding: 6px;
+}
+
+.about {
+  text-align: center;
+  font-size: 1.3em;
+}
+.about h1 {
+  color: rgb(52, 145, 182);
+}
+.about p, .about address {
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */

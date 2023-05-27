@@ -1,0 +1,15 @@
+.about{
+   text-align: center;
+   font-size: 1.3em;
+   h1{
+    color: $color-primary;
+   }
+
+   p{
+    color: $color-tertiary;
+   }
+
+   address{
+     @extend p;
+   }
+}
